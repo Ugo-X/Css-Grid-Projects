@@ -69,14 +69,14 @@ p {
   display: inline-block;
   padding: 0.5rem 1rem;
   text-transform: capitalize;
-  border: 3px solid var(--primarycolor);
-  color: var(--primarycolor);
+  border: 3px solid rgb(170, 65, 170);
+  color: orange;
   margin: 3rem;
   transition: var(--Transition);
 }
 
 .btn:hover {
-  background: var(--primarycolor);
+  background: rgba(205, 134, 63, 0.768);
   color: var(--mainWhite);
 }
 
@@ -117,4 +117,46 @@ Navbar-one
   .navbar-one{
    text-align: center;
   }
+}
+
+/* 
+====================
+Hero Project
+===================
+*/
+
+.hero-header{
+ min-height: 100vh;
+ background:linear-gradient(rgba(193, 17, 135, 0.4),rgba(0,0,0,0.4)) ,url(./images/image-6.jpg) center/cover no-repeat fixed;
+ color: var(--mainWhite);
+ display: grid;
+ justify-content: center;
+ align-items: center;
+}
+
+.hero-banner{
+border-radius: 2rem;
+
+}
+
+.hero-banner p{
+ letter-spacing: 0;
+ word-spacing: -2.3px;
+ width: 80%;
+ max-width: 600px;
+ font-size: 1rem;
+ margin-top: 0.75rem;
+ text-align: justify;
+}
+
+@media screen  and (max-width: 600px) {
+ .hero-banner{
+  padding: 0 2rem;
+ }
+}
+
+@media screen  and (min-width:768px){
+ .hero-header{
+  
+ }
 }
