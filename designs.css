@@ -1,6 +1,79 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 
+/* 
+====================
+VARIABLES
+===================
+*/
+:root{
+ --primarycolor:rgb(81, 81, 148);
+ --mainBlack:#222;
+ --mainWhite:#fff;
+ --offWhite: #f7f7f7;
+ --darkGrey:#afafaf;
+ --Transition: all 0.4s linear;
+ --spacing:0.2rem;
+}
+/* 
+====================
+VARIABLES
+===================
+*/
+
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
 
 body{
 font-family: 'Fira Code', monospace;
+background: var(--mainWhite);
+color: var(--mainBlack);
+line-height: 1.5;
+}
+
+a{
+ list-style-type: none;
+ display: block;
+ text-decoration: none;
+}
+
+img{
+ width: 100%;
+ object-fit: cover;
+ display: block;
+}
+
+h1,h2,h3,h4{
+ text-transform: capitalize;
+ letter-spacing: var(--spacing);
+ margin-bottom: 1,25rem;
+}
+h1{
+ font-size: 3rem;
+}
+h2{
+ margin-bottom: 0;
+}
+p{
+ font-weight: 300;
+ font-size: 0.75rem;
+ line-height: 2;
+}
+/* btn style */
+.btn{
+display: inline-block;
+padding: 0.5rem 1rem;
+text-transform: capitalize;
+border: 3px solid var(--primarycolor);
+color: var(--primarycolor);
+margin: 3rem;
+transition: var(--Transition);
+}
+
+.btn:hover{
+ background: var(--primarycolor);
+ color: var(--mainWhite);
 }
