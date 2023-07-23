@@ -160,3 +160,53 @@ border-radius: 2rem;
 
  }
 }
+
+/* 
+====================
+Cards Project
+===================
+*/
+
+.cards-center{
+ width: 85vw;
+ margin: 0 auto;
+}
+.cards-title{
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+ text-align: center;
+}
+
+.card{
+margin-bottom: 2rem;
+border: 0.5px solid rgb(207, 207, 207);
+}
+
+
+.card .cards-footer{
+ background: #afafaf;
+
+}
+.card h3{
+ margin-top: 1rem;
+ margin-bottom: 1rem;
+}
+.card p{
+ text-align: justify;
+ line-height: 2;
+ margin-bottom: 1.5rem;
+}
+
+.card .cards-footer{
+display: grid;
+grid-template-columns: repeat(4,1fr);
+text-align: center;
+padding-top: 0.25rem;
+padding-bottom: 0.25rem;
+}
+
+.card-info{
+ padding: 0 1rem;
+}
+
+
