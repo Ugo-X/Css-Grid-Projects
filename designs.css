@@ -209,4 +209,21 @@ padding-bottom: 0.25rem;
  padding: 0 1rem;
 }
 
+.card .cards-footer span{
+ color: brown ;
+ font-size: 1.1rem;
+}
 
+@media screen  and (min-width: 700px) {
+ .cards-center{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap:2rem ;
+ }
+}
+
+@media screen and (min-width:1000px){
+ .cards-center{
+   grid-template-columns: repeat(3,1fr);
+ }
+}
