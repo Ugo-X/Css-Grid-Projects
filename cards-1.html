@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cards-1</title>
+    <!-- css link -->
+    <link rel="stylesheet" href="./designs.css" />
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="./fontawesome-free-6.4.0-web/css/all.css" />
+    <style>
+
+/* the max-width(1170px) minus the gap in-between the individual cards(2rem-32px)  will give a number then you divide by the number of columns you have and you will get the width of each card */
+/* (1170px -64)/3 =367px */
+
+.cards-center{
+ display: grid;
+ column-gap: 2rem;
+ grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+    </style>
+  </head>
+  <body>
+    <section class="cards">
+      <div class="cards-title">
+        <h1>
+          Three column <br />
+          Layout
+        </h1>
+      </div>
+      <!-- cards center -->
+      <div class="cards-center">
+        <!-- single card -->
+        <article class="card">
+          <img src="./images/size-image-2.jpeg" alt="" />
+          <!-- card info -->
+          <div class="card-info">
+            <h3>the beauty of nature</h3>
+            <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam saepe quas harum modi et inventore quae ullam, hic necessitatibus nesciunt!
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, minus!
+            </p>
+          </div>
+          <!-- card footer -->
+          <div class="cards-footer">
+            <span><i class="fab fa-twitter"></i></span>
+            <span><i class="fab fa-facebook"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-linkedin"></i></span>
+          </div>
+        </article>
+        <!-- end of single card -->
+        <!-- single card -->
+        <article class="card">
+          <img src="./images/size-image-1.jpeg" alt="" />
+          <!-- card info -->
+          <div class="card-info">
+            <h3>the beauty of nature</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, minus!
+            </p>
+          </div>
+          <!-- card footer -->
+          <div class="cards-footer">
+            <span><i class="fab fa-twitter"></i></span>
+            <span><i class="fab fa-facebook"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-linkedin"></i></span>
+          </div>
+        </article>
+        <!-- end of single card -->
+        <!-- single card -->
+        <article class="card">
+          <img src="./images/size-image-3.jpeg" alt="" />
+          <!-- card info -->
+          <div class="card-info">
+            <h3>the beauty of nature</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, minus!
+            </p>
+          </div>
+          <!-- card footer -->
+          <div class="cards-footer">
+            <span><i class="fab fa-twitter"></i></span>
+            <span><i class="fab fa-facebook"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-linkedin"></i></span>
+          </div>
+        </article>
+        <!-- end of single card -->
+        <!-- single card -->
+        <article class="card">
+          <img src="./images/size-image-4.jpeg" alt="" />
+          <!-- card info -->
+          <div class="card-info">
+            <h3>the beauty of nature</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Similique, minus!
+            </p>
+          </div>
+          <!-- card footer -->
+          <div class="cards-footer">
+            <span><i class="fab fa-twitter"></i></span>
+            <span><i class="fab fa-facebook"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-linkedin"></i></span>
+          </div>
+        </article>
+        <!-- end of single card -->
+      </div>
+      <!-- end of cards center -->
+    </section>
+
+    <a href="./index.html" class="btn"> back to home </a>
+  </body>
+</html>

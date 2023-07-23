@@ -112,7 +112,7 @@ Navbar-one
     max-width: 1170px;
     margin: 0 auto;
    display: grid;
-   grid-template-columns: repeat(4,1fr);
+   grid-template-columns: repeat(5,1fr);
   }
   .navbar-one{
    text-align: center;
@@ -170,6 +170,7 @@ Cards Project
 .cards-center{
  width: 85vw;
  margin: 0 auto;
+ max-width: 1170px;
 }
 .cards-title{
  margin-top: 1rem;
@@ -180,7 +181,13 @@ Cards Project
 .card{
 margin-bottom: 2rem;
 border: 0.5px solid rgb(207, 207, 207);
+display: grid;
+grid-template-columns: 1fr;
+grid-template-rows: auto 1fr auto;
 }
+
+
+
 
 
 .card .cards-footer{
@@ -195,6 +202,7 @@ border: 0.5px solid rgb(207, 207, 207);
  text-align: justify;
  line-height: 2;
  margin-bottom: 1.5rem;
+
 }
 
 .card .cards-footer{
@@ -213,7 +221,7 @@ padding-bottom: 0.25rem;
  color: brown ;
  font-size: 1.1rem;
 }
-
+/*
 @media screen  and (min-width: 700px) {
  .cards-center{
   display: grid;
@@ -226,4 +234,22 @@ padding-bottom: 0.25rem;
  .cards-center{
    grid-template-columns: repeat(3,1fr);
  }
+}
+
+/* 
+====================
+Tiles Project
+===================
+*/
+
+.tiles{
+ padding: 4rem 0;
+}
+
+.tiles-center{
+ width: 90vw;
+ margin: 0 auto;
+ max-width: 1170px;
+ display: grid;
+ 
 }
